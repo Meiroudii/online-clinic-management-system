@@ -1,0 +1,25 @@
+# Ignore the XAMPP specific directories
+/xampp
+/htdocs
+
+# Ignore specific files and directories
+*.log               # Log files
+*.tmp               # Temporary files
+*.sqlite            # SQLite database files
+*.db                # Database files
+
+# Ignore IDE files
+/.idea/             # JetBrains IDEs
+/.vscode/           # Visual Studio Code
+*.sublime-workspace # Sublime Text
+*.sublime-project   # Sublime Text
+
+# Ignore operating system files
+.DS_Store           # macOS Finder files
+Thumbs.db          # Windows thumbnail cache
+ehthumbs.db        # Windows thumbnail cache
+Icon?              # macOS icon files
+
+# Ignore environment files
+.env                # Environment variables
+
